@@ -1,0 +1,30 @@
+.wrap-btn {
+    display: flex;
+    justify-content: center;
+}
+.btn-qty {
+    padding:4px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.btn-qty:hover {
+    background-color: #bbb;
+}
+.btn-qty:disabled {
+    cursor: default;
+}
+.btn-qty:disabled:hover{
+    background-color: unset;
+}
+input {
+    width: 30px;
+    text-align: center;
+    padding:4px;
+    outline: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    background:transparent;
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+}

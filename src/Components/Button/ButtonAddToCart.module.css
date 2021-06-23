@@ -1,0 +1,17 @@
+.button {
+    margin-top:8px;
+    font-style: italic;
+    font-size: 1rem;
+    padding: 6px;
+    outline:none;
+    border:none;
+    background-color:#ad5502;  
+    border-radius:4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    color: #fff; 
+    margin-bottom:24px;
+  }
+  .button:hover {
+    background-color:#4d1601
+  }
